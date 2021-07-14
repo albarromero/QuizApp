@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Encode Sans SC', sans-serif;
+    background-color: coral;
+    background-image: linear-gradient( coral 10%, rgb(255, 180, 153) 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.quiz-container {
+    background-color: azure;
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.308);
+    width: 500px;
+    overflow: hidden;
+    border: 1.5px solid black;
+}
+
+.quiz-header {
+    padding: 30px;
+}
+
+.quiz-header ul li:hover {
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+ul li input, ul li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+    transition: all .8s;
+}
+
+button:hover {
+    background-color: coral;
+    color: black;
+}
